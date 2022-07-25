@@ -9,7 +9,7 @@ STACK=$1
 STACK_NAME=$(echo "${STACK}" | cut -d '-' -f 1)
 STACK_VERSION=$(echo "${STACK}" | cut -d '-' -f 2-)
 
-DOCKER_IMAGE=heroku/$STACK_NAME:$STACK_VERSION
+DOCKER_IMAGE=fagiani/$STACK_NAME:$STACK_VERSION
 DOCKER_IMAGE_VERSION=$(docker inspect "${DOCKER_IMAGE}" | jq .[].Id | cut -d ':' -f 2 | cut -b 1-12)
 
 GIT_REF=${CIRCLE_TAG:-${CIRCLE_SHA1:?'Error: Either CIRCLE_TAG or CIRCLE_SHA1 must be set!'}}

@@ -1,4 +1,4 @@
-FROM heroku/heroku:22
+FROM fagiani/heroku:22
 
 RUN ln -s /workspace /app
 
