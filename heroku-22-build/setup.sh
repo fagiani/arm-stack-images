@@ -10,10 +10,20 @@ export DEBIAN_FRONTEND=noninteractive
 
 apt-get update
 apt-get install -y --no-install-recommends \
+    python3-dev \
+    build-essential
+apt-get install -y --no-install-recommends \
+    libssl1.1
+apt-get install -y --no-install-recommends \
+    libssl1.1=1.1.1f-1ubuntu2
+apt-get install -y --no-install-recommends \
+    libssl-dev 
+apt-get install -y --no-install-recommends \
+    libmysqlclient-dev \
+apt-get install -y --no-install-recommends \
     autoconf \
     automake \
     bison \
-    build-essential \
     bzr \
     cmake \
     gettext \
@@ -56,7 +66,6 @@ apt-get install -y --no-install-recommends \
     libmagickwand-dev \
     libmcrypt-dev \
     libmemcached-dev \
-    libmysqlclient-dev \
     libncurses5-dev \
     libncursesw5-dev \
     libnetpbm10-dev \
@@ -71,7 +80,6 @@ apt-get install -y --no-install-recommends \
     libselinux1-dev \
     libsemanage-dev \
     libsodium-dev \
-    libssl-dev \
     libsystemd-dev \
     libtool \
     libudev-dev \
@@ -83,7 +91,6 @@ apt-get install -y --no-install-recommends \
     libzip-dev \
     libzstd-dev \
     mercurial \
-    python3-dev \
     zlib1g-dev \
 
 rm -rf /root/*
