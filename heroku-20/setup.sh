@@ -197,7 +197,6 @@ apt-get install -y --no-install-recommends \
     shared-mime-info \
     socat \
     stunnel \
-    syslinux \
     tar \
     telnet \
     tzdata \

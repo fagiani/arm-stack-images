@@ -558,7 +558,6 @@ shared-mime-info
 socat
 ssl-cert
 stunnel4
-syslinux
 sysvinit-utils
 tar
 telnet

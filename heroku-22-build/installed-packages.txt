@@ -556,7 +556,6 @@ sensible-utils
 shared-mime-info
 socat
 stunnel4
-syslinux
 systemd
 sysvinit-utils
 tar
