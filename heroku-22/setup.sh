@@ -10,9 +10,9 @@ export DEBIAN_FRONTEND=noninteractive
 
 # The default sources list minus backports, restricted and multiverse.
 cat >/etc/apt/sources.list <<EOF
-deb http://archive.ubuntu.com/ubuntu/ jammy main universe
-deb http://archive.ubuntu.com/ubuntu/ jammy-security main universe
-deb http://archive.ubuntu.com/ubuntu/ jammy-updates main universe
+deb http://ports.ubuntu.com/ubuntu-ports jammy main universe
+deb http://ports.ubuntu.com/ubuntu-ports jammy-security main universe
+deb http://ports.ubuntu.com/ubuntu-ports jammy-updates main universe
 EOF
 
 apt-get update
@@ -227,7 +227,7 @@ IMAGEMAGICK_POLICY
 # until this is backported from Ubuntu kinetic to jammy, we apply by hand
 # see https://bugs.launchpad.net/ubuntu/+source/openssl/+bug/1979639 for details
 # use --force for patch to ensure it fails instead of asking for reversal once upstream has included this change
-curl -s http://archive.ubuntu.com/ubuntu/pool/main/o/openssl/openssl_3.0.4-1ubuntu1.debian.tar.xz \
+curl -s http://ports.ubuntu.com/ubuntu-ports/pool/main/o/openssl/openssl_3.0.4-1ubuntu1.debian.tar.xz \
     | tar xJO debian/patches/Remove-the-provider-section.patch \
     | patch --force /etc/ssl/openssl.cnf
 

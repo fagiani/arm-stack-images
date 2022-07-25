@@ -10,9 +10,9 @@ export DEBIAN_FRONTEND=noninteractive
 
 # The default sources list minus backports, restricted and multiverse.
 cat >/etc/apt/sources.list <<EOF
-deb http://archive.ubuntu.com/ubuntu/ focal main universe
-deb http://archive.ubuntu.com/ubuntu/ focal-security main universe
-deb http://archive.ubuntu.com/ubuntu/ focal-updates main universe
+deb http://ports.ubuntu.com/ubuntu-ports focal main universe
+deb http://ports.ubuntu.com/ubuntu-ports focal-security main universe
+deb http://ports.ubuntu.com/ubuntu-ports focal-updates main universe
 EOF
 
 apt-get update

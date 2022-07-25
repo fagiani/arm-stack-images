@@ -10,9 +10,9 @@ export DEBIAN_FRONTEND=noninteractive
 
 # The default sources list minus backports, restricted and multiverse.
 cat >/etc/apt/sources.list <<EOF
-deb http://archive.ubuntu.com/ubuntu/ bionic main universe
-deb http://archive.ubuntu.com/ubuntu/ bionic-security main universe
-deb http://archive.ubuntu.com/ubuntu/ bionic-updates main universe
+deb http://ports.ubuntu.com/ubuntu-ports bionic main universe
+deb http://ports.ubuntu.com/ubuntu-ports bionic-security main universe
+deb http://ports.ubuntu.com/ubuntu-ports bionic-updates main universe
 EOF
 
 apt-get update
