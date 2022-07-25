@@ -14,8 +14,8 @@ bind9-host
 bind9-libs
 binfmt-support
 binutils
+binutils-aarch64-linux-gnu
 binutils-common
-binutils-x86-64-linux-gnu
 bison
 brz
 bsdutils
@@ -94,8 +94,6 @@ krb5-multidev
 language-pack-en
 language-pack-en-base
 less
-lib32gcc-s1
-lib32stdc++6
 libacl1
 libacl1-dev
 libapt-pkg-dev
@@ -129,7 +127,6 @@ libc-client2007e-dev
 libc-dev-bin
 libc6
 libc6-dev
-libc6-i386
 libcairo-gobject2
 libcairo-script-interpreter2
 libcairo2
@@ -384,7 +381,6 @@ libpython3.8
 libpython3.8-dev
 libpython3.8-minimal
 libpython3.8-stdlib
-libquadmath0
 librabbitmq-dev
 librabbitmq4
 libreadline-dev
@@ -505,7 +501,6 @@ mercurial-common
 mime-support
 mlock
 mount
-mtools
 mysql-common
 ncurses-base
 ncurses-bin

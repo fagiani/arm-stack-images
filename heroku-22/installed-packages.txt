@@ -10,8 +10,8 @@ bind9-dnsutils
 bind9-host
 bind9-libs
 binutils
+binutils-aarch64-linux-gnu
 binutils-common
-binutils-x86-64-linux-gnu
 bsdutils
 bzip2
 ca-certificates
@@ -161,6 +161,7 @@ libgssapi-krb5-2
 libharfbuzz0b
 libheif1
 libhogweed6
+libhwasan0
 libicu70
 libidn12
 libidn2-0
@@ -236,7 +237,6 @@ libpsl5
 libpython3-stdlib
 libpython3.10-minimal
 libpython3.10-stdlib
-libquadmath0
 librabbitmq4
 libreadline8
 librsvg2-2
@@ -306,7 +306,6 @@ mawk
 media-types
 mlock
 mount
-mtools
 mysql-common
 ncurses-base
 ncurses-bin

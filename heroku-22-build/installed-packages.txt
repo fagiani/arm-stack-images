@@ -13,8 +13,8 @@ bind9-dnsutils
 bind9-host
 bind9-libs
 binutils
+binutils-aarch64-linux-gnu
 binutils-common
-binutils-x86-64-linux-gnu
 bison
 brz
 bsdutils
@@ -241,6 +241,7 @@ libhashkit2
 libheif-dev
 libheif1
 libhogweed6
+libhwasan0
 libice-dev
 libice6
 libicu-dev
@@ -387,7 +388,6 @@ libpython3.10
 libpython3.10-dev
 libpython3.10-minimal
 libpython3.10-stdlib
-libquadmath0
 librabbitmq-dev
 librabbitmq4
 libreadline-dev
@@ -507,7 +507,6 @@ mercurial
 mercurial-common
 mlock
 mount
-mtools
 mysql-common
 ncurses-base
 ncurses-bin

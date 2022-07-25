@@ -10,10 +10,9 @@ base-files
 base-passwd
 bash
 bind9-host
-binfmt-support
 binutils
+binutils-aarch64-linux-gnu
 binutils-common
-binutils-x86-64-linux-gnu
 bison
 bsdutils
 build-essential
@@ -21,7 +20,6 @@ bzip2
 bzr
 ca-certificates
 ca-certificates-java
-clang-6.0
 cmake
 cmake-data
 comerr-dev
@@ -91,8 +89,6 @@ krb5-multidev
 language-pack-en
 language-pack-en-base
 less
-lib32gcc1
-lib32stdc++6
 libacl1
 libacl1-dev
 libapt-inst2.0
@@ -127,7 +123,6 @@ libc-client2007e-dev
 libc-dev-bin
 libc6
 libc6-dev
-libc6-i386
 libcairo-gobject2
 libcairo-script-interpreter2
 libcairo2
@@ -137,9 +132,6 @@ libcap-ng-dev
 libcap-ng0
 libcap2
 libcc1-0
-libcilkrts5
-libclang-common-6.0-dev
-libclang1-6.0
 libcom-err2
 libcroco3
 libcups2
@@ -184,7 +176,6 @@ libfontconfig1
 libfontconfig1-dev
 libfreetype6
 libfreetype6-dev
-libgc1c2
 libgcc-7-dev
 libgcc1
 libgcrypt20
@@ -288,7 +279,6 @@ liblcms2-dev
 libldap-2.4-2
 libldap-common
 libldap2-dev
-libllvm6.0
 liblqr-1-0
 liblqr-1-0-dev
 liblsan0
@@ -322,7 +312,6 @@ libmount1
 libmpc3
 libmpdec2
 libmpfr6
-libmpx2
 libmysqlclient-dev
 libmysqlclient20
 libncurses5
@@ -334,8 +323,6 @@ libnetpbm10-dev
 libnettle6
 libnghttp2-14
 libnpth0
-libobjc-7-dev
-libobjc4
 libonig-dev
 libonig4
 libopenexr-dev
@@ -358,7 +345,6 @@ libpcre3-dev
 libpcre32-3
 libpcrecpp0v5
 libperl5.26
-libpipeline1
 libpixman-1-0
 libpixman-1-dev
 libpng-dev
@@ -379,7 +365,6 @@ libpython2.7-stdlib
 libpython3-stdlib
 libpython3.6-minimal
 libpython3.6-stdlib
-libquadmath0
 librabbitmq-dev
 librabbitmq4
 libreadline-dev
@@ -482,9 +467,6 @@ libzip4
 libzstd-dev
 libzstd1
 linux-libc-dev
-llvm-6.0
-llvm-6.0-dev
-llvm-6.0-runtime
 locales
 login
 lsb-base
@@ -497,7 +479,6 @@ mercurial-common
 mime-support
 mlock
 mount
-mtools
 multiarch-support
 mysql-common
 ncurses-base
