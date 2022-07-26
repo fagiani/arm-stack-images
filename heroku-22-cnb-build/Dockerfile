@@ -1,4 +1,4 @@
-FROM fagiani/heroku:22-build
+FROM fagiani/heroku-arm64:22-build
 
 RUN groupadd heroku --gid 1000 && \
   useradd heroku -u 1000 -g 1000 -s /bin/bash -m

@@ -7,18 +7,18 @@ The recipes are also rendered into Docker images that are available on Docker Hu
 
 | Image                                     | Base                                  | Type                       | Status     |
 |-------------------------------------------|---------------------------------------|----------------------------|------------|
-| [heroku/heroku:18][heroku-tags]           | [ubuntu:18.04][ubuntu-tags]           | Heroku Runtime Stack Image | Deprecated |
-| [heroku/heroku:18-build][heroku-tags]     | [heroku/heroku:18][heroku-tags]       | Heroku Build Stack Image   | Deprecated |
-| [heroku/heroku:18-cnb][heroku-tags]       | [heroku/heroku:18][heroku-tags]       | CNB Runtime Stack Image    | Deprecated |
-| [heroku/heroku:18-cnb-build][heroku-tags] | [heroku/heroku:18-build][heroku-tags] | CNB Build Stack Image      | Deprecated |
-| [heroku/heroku:20][heroku-tags]           | [ubuntu:20.04][ubuntu-tags]           | Heroku Runtime Stack Image | Suggested  |
-| [heroku/heroku:20-build][heroku-tags]     | [heroku/heroku:20][heroku-tags]       | Heroku Build Stack Image   | Suggested  |
-| [heroku/heroku:20-cnb][heroku-tags]       | [heroku/heroku:20][heroku-tags]       | CNB Runtime Stack Image    | Suggested  |
-| [heroku/heroku:20-cnb-build][heroku-tags] | [heroku/heroku:20-build][heroku-tags] | CNB Build Stack Image      | Suggested  |
-| [heroku/heroku:22][heroku-tags]           | [ubuntu:22.04][ubuntu-tags]           | Heroku Runtime Stack Image | Available  |
-| [heroku/heroku:22-build][heroku-tags]     | [heroku/heroku:22][heroku-tags]       | Heroku Build Stack Image   | Available  |
-| [heroku/heroku:22-cnb][heroku-tags]       | [heroku/heroku:22][heroku-tags]       | CNB Runtime Stack Image    | Available  |
-| [heroku/heroku:22-cnb-build][heroku-tags] | [heroku/heroku:22-build][heroku-tags] | CNB Build Stack Image      | Available  |
+| [fagiani/heroku-arm64:18][heroku-tags]           | [ubuntu:18.04][ubuntu-tags]           | Heroku Runtime Stack Image | Deprecated |
+| [fagiani/heroku-arm64:18-build][heroku-tags]     | [fagiani/heroku-arm64:18][heroku-tags]       | Heroku Build Stack Image   | Deprecated |
+| [fagiani/heroku-arm64:18-cnb][heroku-tags]       | [fagiani/heroku-arm64:18][heroku-tags]       | CNB Runtime Stack Image    | Deprecated |
+| [fagiani/heroku-arm64:18-cnb-build][heroku-tags] | [fagiani/heroku-arm64:18-build][heroku-tags] | CNB Build Stack Image      | Deprecated |
+| [fagiani/heroku-arm64:20][heroku-tags]           | [ubuntu:20.04][ubuntu-tags]           | Heroku Runtime Stack Image | Suggested  |
+| [fagiani/heroku-arm64:20-build][heroku-tags]     | [fagiani/heroku-arm64:20][heroku-tags]       | Heroku Build Stack Image   | Suggested  |
+| [fagiani/heroku-arm64:20-cnb][heroku-tags]       | [fagiani/heroku-arm64:20][heroku-tags]       | CNB Runtime Stack Image    | Suggested  |
+| [fagiani/heroku-arm64:20-cnb-build][heroku-tags] | [fagiani/heroku-arm64:20-build][heroku-tags] | CNB Build Stack Image      | Suggested  |
+| [fagiani/heroku-arm64:22][heroku-tags]           | [ubuntu:22.04][ubuntu-tags]           | Heroku Runtime Stack Image | Available  |
+| [fagiani/heroku-arm64:22-build][heroku-tags]     | [fagiani/heroku-arm64:22][heroku-tags]       | Heroku Build Stack Image   | Available  |
+| [fagiani/heroku-arm64:22-cnb][heroku-tags]       | [fagiani/heroku-arm64:22][heroku-tags]       | CNB Runtime Stack Image    | Available  |
+| [fagiani/heroku-arm64:22-cnb-build][heroku-tags] | [fagiani/heroku-arm64:22-build][heroku-tags] | CNB Build Stack Image      | Available  |
 
 ### Learn more
 
@@ -27,5 +27,5 @@ The recipes are also rendered into Docker images that are available on Docker Hu
 
 See [BUILD.md](BUILD.md) for instructions on how to build the images yourself.
 
-[heroku-tags]: https://hub.docker.com/r/heroku/heroku/tags
+[heroku-tags]: https://hub.docker.com/r/fagiani/heroku-arm64/tags
 [ubuntu-tags]: https://hub.docker.com/_/ubuntu?tab=tags

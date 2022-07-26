@@ -16,7 +16,7 @@ write_package_list() {
     docker run --rm "$image_tag" dpkg-query --show --showformat='${Package}\n' >> "$output_file"
 }
 
-RUN_IMAGE_TAG="fagiani/heroku:${STACK_VERSION}"
+RUN_IMAGE_TAG="fagiani/heroku-arm64:${STACK_VERSION}"
 RUN_DOCKERFILE_DIR="heroku-${STACK_VERSION}"
 [[ -d "${RUN_DOCKERFILE_DIR}" ]] || abort "fatal: directory ${RUN_DOCKERFILE_DIR} not found"
 display "Building ${RUN_DOCKERFILE_DIR} / ${RUN_IMAGE_TAG} Heroku runtime image"

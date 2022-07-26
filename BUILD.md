@@ -32,10 +32,10 @@ For example:
 The supported stacks are: `18`, `20`, and `22`. This script will build a family
 of 4 images:
 
-* `heroku/heroku:{STACK_VERSION}` - The runtime stack image for the Heroku platform
-* `heroku/heroku:{STACK_VERSION}-build` - The build-time stack image for the Heroku platform
-* `heroku/heroku:{STACK_VERSION}-cnb` - The runtime stack image for Cloud Native Buildpacks
-* `heroku/heroku:{STACK_VERSION}-cnb-build` - The build-time stack image for Cloud Native Buildpacks
+* `fagiani/heroku-arm64:{STACK_VERSION}` - The runtime stack image for the Heroku platform
+* `fagiani/heroku-arm64:{STACK_VERSION}-build` - The build-time stack image for the Heroku platform
+* `fagiani/heroku-arm64:{STACK_VERSION}-cnb` - The runtime stack image for Cloud Native Buildpacks
+* `fagiani/heroku-arm64:{STACK_VERSION}-cnb-build` - The build-time stack image for Cloud Native Buildpacks
 
 # Releasing Stack Images
 

@@ -1,4 +1,4 @@
-FROM fagiani/heroku:18
+FROM fagiani/heroku-arm64:18
 
 RUN ln -s /workspace /app
 
